@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>
+		<h1>Whatever</h1>
+	</title>
+	<meta charset="utf-8">	
+</head>
+<body>
+	<form action="save.php" method="get">
+		<label>Name:</label>
+		<input type="text" name="name">
+		<br>
+		<label>Age:</label><br>
+		<input type="radio" name="age" value="<18" checked="checked"><label>&lt;18</label><br>
+		<input type="radio" name="age" value="19-35"><label>19-35</label><br>
+		<input type="radio" name="age" value="36-48"><label>36-48</label><br>
+		<input type="radio" name="age" value=">=49"><label>>=49</label><br>
+		<label>Profession:</label>
+		<input type="text" name="profession">
+		<br>
+		<label>Country:</label>
+		<select name="country">
+  			<option value="alemanha">Alemanha</option>
+  			<option value="argentina">Argentina</option>
+  			<option value="brasil" selected>Brasil</option>
+			<option value="portugal">Portugal</option>
+		</select>
+		<br>
+		<label>Interests:</label><br>
+		<input type="checkbox" name="interest" value="Car" checked="checked" >Drive a car<br>
+		<input type="checkbox" name="interest" value="Bike">Ride a bike<br>
+		<input type="checkbox" name="interest" value="Football">Play football<br>
+		<input type="checkbox" name="interest" value="Music">Listen to music<br>
+		<label>How did you find out about this website?</label><br>
+		<textarea name="where user found website" rows="5" cols="80">
+			Blablabla.
+		</textarea>
+		<br>
+		<input type="submit" value="Send">
+
+	</form>
+</body>
