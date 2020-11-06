@@ -1,0 +1,187 @@
+/* header */
+
+body > header 
+{
+	background-color: #046DD5;
+	color: white;
+	padding: 1em;
+}
+
+body > header h1, body > header h2{
+  margin: 0;
+}
+
+body > header a {
+  color: white;
+  text-decoration: none;  
+}
+
+body > header #signup a:first-child {
+  border-right: 1px solid white;
+}
+
+body > header #signup a {
+  padding: 0 1em;
+}
+
+body > header #signup a:first-child {
+  padding-left: 0;
+}
+
+
+
+/* navigation */
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu li a{
+  color: black;
+  text-decoration: none;
+}
+
+#menu li:hover {
+  background-color: #2a2f33;
+}
+
+#menu li:hover a{
+  color: white;
+}
+
+#hamburger, .hamburger {
+  display: none;
+}
+
+
+/* article */
+
+#news header {
+  max-width: 10em;
+  padding: 1em;
+  position: absolute;
+}
+
+#news header h1{
+  margin: 0;
+
+  text-shadow: .2em .2em .2em black;
+}
+
+#news header a{
+  color: white;
+  text-decoration: none;
+}
+
+#news img {
+  width: 100%;
+}
+
+#news > article {
+  background-color: white;
+
+  margin: 1em 1em 1em 0;
+}
+
+#news > article > p{
+  padding: 0 1em;
+}
+
+#news > article > p:first-of-type:first-letter{
+  font-size: 2em;
+}
+
+
+#news footer{
+	color: white;
+	background-color: #F4655F;
+
+	padding: 1em;
+}
+
+#news footer a{
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+}
+
+#news footer .tags{
+	margin-right: 1em;
+}
+
+#news footer .comments{
+	margin-left: 1em;
+}
+
+#news footer .comments:after{
+	content: ' comments';
+}
+
+#news footer .author:before{
+	content: 'By ';
+}
+
+/* Related */
+
+#related{
+	background-color: #2A2F33;
+  	padding: 1em;
+}
+
+#related h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+#related p{
+	color: white;
+}
+
+/* Footer */
+
+body > footer{
+	background-color: #2A2F33;
+	color: white;
+
+	padding: 1em;
+	margin-right: 1em;
+
+	height: 1em;
+}
+
+body > footer p{
+	margin: 0;
+}
+
+/* Fonts */
+
+body {
+  font-family: 'Verdana', sans-serif;
+}
+
+p {
+  font-family: "Georgia", serif;
+  line-height: 1.4em;
+}
+
+header h2{
+	font-size: 1em;
+}
+
+header a{
+	font-size: 0.8em;
+}
+
+#news header{
+	font-size: 1.5em;
+}
+
+#news footer{
+	font-size: 0.8em;
+}
+
+/* Section Colors */
+
+
